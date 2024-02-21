@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/personal-website/",
+  base: "/website/",
   title: "大鱼的空间",
   description: "大鱼的个人博客",
   // head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
