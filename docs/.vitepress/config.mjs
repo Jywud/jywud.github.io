@@ -6,6 +6,7 @@ export default defineConfig({
   title: "大鱼的空间",
   description: "大鱼的个人博客",
   // head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  outDir: "../dist",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: '/logo.svg',
