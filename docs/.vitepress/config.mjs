@@ -1,12 +1,12 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/website/",
-  title: "大鱼的空间",
-  description: "大鱼的个人博客",
-  // head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-  outDir: "../dist",
+  base: '/website/',
+  title: '大鱼的空间',
+  description: '大鱼的个人博客',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  outDir: '../dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // logo: '/logo.svg',
@@ -16,9 +16,7 @@ export default defineConfig({
       { text: '测试', link: '/more/test' },
       {
         text: '更多',
-        items: [
-          { text: '百度', link: 'https://www.baidu.com' }
-        ]
+        items: [{ text: '百度', link: 'https://www.baidu.com' }]
       }
     ],
 
@@ -36,9 +34,7 @@ export default defineConfig({
       '/more/': [
         {
           text: 'Test',
-          items: [
-            { text: 'test', link: '/more/test' },            
-          ]
+          items: [{ text: 'test', link: '/more/test' }]
         }
       ]
     },
@@ -52,9 +48,7 @@ export default defineConfig({
     //   }
     // ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://gitee.com/jywud314' }
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://gitee.com/jywud314' }],
 
     footer: {
       message: 'Released under the MIT License.',
@@ -69,4 +63,4 @@ export default defineConfig({
       }
     }
   }
-})
+});

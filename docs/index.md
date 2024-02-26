@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 大鱼的空间主页
-  text: 有很多的学习资料
-  tagline: My great project tagline
+  name: 大鱼的空间
+  text: 一起成长一起进步
+  tagline: 人生如旅程，不在于目的地，而在于沿途的风景和经历
   actions:
     - theme: brand
       text: guide
@@ -23,3 +23,17 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<div :class="$style.wx_gzh_wrap">
+  <img :class="$style.wx_gzh_img" src="/wx.png" />
+</div>
+
+<style module>
+.wx_gzh_wrap{
+  text-align: center;
+  margin: 40px;
+}
+.wx_gzh_img{
+  width: 400px;
+  display: inline-block;
+}
+</style>
