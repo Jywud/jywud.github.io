@@ -5,11 +5,11 @@ export default defineConfig({
   base: '/website/',
   title: '大鱼的空间',
   description: '大鱼的个人博客',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/website/favicon.ico' }]],
   outDir: '../dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // logo: '/logo.svg',
+    logo: '/favicon.ico',
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/markdown-examples' },
