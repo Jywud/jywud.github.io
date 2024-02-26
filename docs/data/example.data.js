@@ -1,7 +1,7 @@
 export default {
-    load() {
-      return {
-        hello: 'world'
-      }
-    }
+  load() {
+    return {
+      hello: 'world'
+    };
   }
+};
