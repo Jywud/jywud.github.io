@@ -3,29 +3,30 @@
 layout: home
 
 hero:
-  name: 大鱼的空间
-  text: 一起成长一起进步
-  tagline: 人生如旅程，不在于目的地，而在于沿途的风景和经历
-  image:
-    src: /logo.jpg
-    alt: dy
+  name: 大鱼历险记
+  text: 工作生活的成长之路
+  tagline: 路漫漫其修远兮，吾将上下而求索
+  # image:
+  #   src: /logo.jpg
+  #   alt: dy
   actions:
     - theme: brand
-      text: guide
+      text: 没想好
       link: /guide/markdown-examples
     - theme: alt
-      text: test Examples
-      link: /more/test
+      text: gitee
+      link: https://gitee.com/jywud314
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 机遇只眷有备者
+    details: 机遇来临时，只有准备充分的人才能抓住它。
+  - title: 坚持铸就辉煌
+    details: 成功在于不懈坚持，毅力成就辉煌人生。
+  - title: 心态决定成败
+    details: 积极乐观的心态是成功的关键，心态决定一切。
 ---
 
+<p style="text-align:center;color:red;margin-top:100px">本站正在逐步完善，欢迎大家关注我的微信公众号，及时获取前端技术推文</p>
 <div :class="$style.wx_gzh_wrap">
   <img :class="$style.wx_gzh_img" src="/wx.png" />
 </div>
@@ -33,7 +34,6 @@ features:
 <style module>
 .wx_gzh_wrap{
   text-align: center;
-  margin: 40px;
 }
 .wx_gzh_img{
   width: 400px;
