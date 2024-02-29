@@ -17,13 +17,27 @@ export default defineConfig({
       { text: '首页', link: '/' },
       // { text: '指南', link: '/guide/markdown-examples' },
       // { text: '测试', link: '/more/test' },
-      { text: '提效工具', items: [{ text: '在线工具', link: '/efficiency/tools' }] },
+      { text: '提效工具', items: [{ text: '在线工具库', link: '/efficiency/tools' }] },
       {
-        text: '更多站点',
+        text: '我的更多',
         items: [
-          { text: '稀土掘金', link: 'https://juejin.cn/user/395479916219517' },
-          { text: 'csdn', link: 'https://blog.csdn.net/wujiayu31415?spm=1000.2115.3001.5343' },
-          { text: 'segmentfault', link: 'https://segmentfault.com/u/jywud' }
+          {
+            text: '我的论坛',
+            items: [
+              { text: '稀土掘金', link: 'https://juejin.cn/user/395479916219517' },
+              { text: 'CSDN', link: 'https://blog.csdn.net/wujiayu31415' },
+              { text: 'segmentfault', link: 'https://segmentfault.com/u/jywud' }
+            ]
+          },
+          {
+            text: '我的开源',
+            items: [
+              { text: 'github', link: 'https://github.com/Jywud' },
+              { text: 'gitee', link: 'https://gitee.com/jywud314' },
+              { text: 'gitlab', link: 'https://gitlab.com/Jywud' },
+              { text: 'npm', link: 'https://www.npmjs.com/~jywud314' }
+            ]
+          }
         ]
       }
     ],

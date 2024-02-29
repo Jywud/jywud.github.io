@@ -1,17 +1,16 @@
+# 在线工具库
+
 ## 开发常用
 
 - [Can I use](https://caniuse.com) 兼容性查询
+- [cli.im](https://cli.im/) 草料二维码生成器
+- [lingdaima](https://www.lingdaima.com/) 零代码工具箱
 - [carbon](https://carbon.now.sh) 代码图片生成
 - [npm trends](https://www.npmtrends.com/) 比较 npm package 的下载情况
 - [Bundlephobia](https://bundlephobia.com/) 分析 npm package 的依赖、bundle 后的大小、下载速度预估
 - [Package Phobia](https://packagephobia.com/) 查询 npm package 的安装体积（磁盘大小）
 
-## 沙箱
-
-- [CodeSandbox](https://codesandbox.io)
-- [Codepen](https://codepen.io)
-
-## 正则
+## 正则表达式
 
 - 正则可视化工具
   - [regulex](https://jex.im/regulex)
@@ -31,11 +30,6 @@
 - [Babel](https://www.babeljs.cn/repl)
 - [TypeScript](https://www.typescriptlang.org/play)
 
-## Vue
-
-- [Vue Template Explorer](https://template-explorer.vuejs.org/)
-- [Vue 3 Template Explorer](https://vue-next-template-explorer.netlify.app/)
-- [Vue SFC Playground](https://sfc.vuejs.org/)
 
 ## CSS 预处理器
 
@@ -70,10 +64,17 @@
 - [Blobmaker](https://www.blobmaker.app) 随机生成不规则形状
 - [Haikei](https://app.haikei.app) 快速制作各种尺寸、样式的背景图
 
+## emoji
+
+- [emojiall](https://emojiall.com)
+- [emojipedia](https://emojipedia.org)
+- [emoji6](https://emoji6.com/emojiall/)
+
 ## CDN
 
 - [jsDelivr](https://www.jsdelivr.com)
 - [esm.sh](https://esm.sh/)
+- [bootcdn](https://www.bootcdn.cn/)
 
 ## 图片处理
 
@@ -84,9 +85,9 @@
 
 ### 图片压缩
 
-- [squoosh](https://squoosh.app) [Google 开源](https://github.com/GoogleChromeLabs/squoosh)的图片压缩工具
 - [TinyPNG](https://tinypng.com)
 - [docsmall](https://docsmall.com)
+- [squoosh](https://squoosh.app) [Google 开源](https://github.com/GoogleChromeLabs/squoosh)的图片压缩工具
 
 ### 图片生成
 
@@ -107,3 +108,8 @@
 - 在线格式转换
   - [CloudConvert](https://cloudconvert.com/) 在线文件转换器，支持 200+ 种格式、支持自定义设置、图片可在线预览（英文界面）
   - [Convertio](https://convertio.co/zh/) 在线转换文件的简单工具，支持 300+ 种格式、支持自定义设置（最大 100M）
+
+## 沙箱
+
+- [CodeSandbox](https://codesandbox.io)
+- [Codepen](https://codepen.io)
