@@ -58,7 +58,13 @@ export default defineConfig({
           }
         ]
       },
-      { text: '提效工具', items: [{ text: '在线工具库', link: '/efficiency/tools' }] },
+      {
+        text: '提效工具',
+        items: [
+          { text: '在线工具库', link: '/efficiency/tools' },
+          { text: 'any-format文档', link: '/doc/anyformat' }
+        ]
+      },
       {
         text: '我的更多',
         items: [
