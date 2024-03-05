@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 没想好
-      link: /guide/markdown-examples
+      link: /efficiency/tools
     - theme: alt
       text: gitee
       link: https://gitee.com/jywud314

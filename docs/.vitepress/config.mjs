@@ -17,6 +17,47 @@ export default defineConfig({
       { text: '首页', link: '/' },
       // { text: '指南', link: '/guide/markdown-examples' },
       // { text: '测试', link: '/more/test' },
+      {
+        text: '前端文章',
+        items: [
+          {
+            text: '前端基础',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=2827086369561870340#wechat_redirect'
+          },
+          {
+            text: 'vue3系列',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=3096273610228465667#wechat_redirect'
+          },
+          {
+            text: 'nodejs相关',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=2365887739981840384#wechat_redirect'
+          },
+          {
+            text: 'react相关',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=2262938000307453958#wechat_redirect'
+          },
+          {
+            text: 'uniapp/小程序',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=3012150613608071171#wechat_redirect'
+          },
+          {
+            text: '打包工具',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=2969030295020732417#wechat_redirect'
+          },
+          {
+            text: '各种工具',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=3265820619896619012#wechat_redirect'
+          },
+          {
+            text: 'nginx',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=3195081977901711360#wechat_redirect'
+          },
+          {
+            text: '前端杂项',
+            link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3NDkxNTQ3OQ==&action=getalbum&album_id=2838542468404051971#wechat_redirect'
+          }
+        ]
+      },
       { text: '提效工具', items: [{ text: '在线工具库', link: '/efficiency/tools' }] },
       {
         text: '我的更多',
