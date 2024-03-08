@@ -61,8 +61,8 @@ export default defineConfig({
       {
         text: '提效工具',
         items: [
-          { text: '在线工具库', link: '/efficiency/tools' },
-          { text: 'any-format文档', link: '/doc/anyformat' }
+          { text: '在线工具库', link: '/efficiency/online-tools' },
+          { text: 'any-format文档', link: '/efficiency/doc-anyformat' }
         ]
       },
       {
@@ -90,13 +90,12 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/guide/': [
+      '/efficiency/': [
         {
-          text: 'Examples1',
-          collapsed: true,
+          text: '提效工具',
           items: [
-            { text: 'Markdown Examples', link: '/guide/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/guide/api-examples' }
+            { text: '在线工具库', link: '/efficiency/online-tools' },
+            { text: 'any-format文档', link: '/efficiency/doc-anyformat' }
           ]
         }
       ],

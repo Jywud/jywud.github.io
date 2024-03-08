@@ -11,8 +11,8 @@ hero:
     alt: dy
   actions:
     - theme: brand
-      text: 没想好
-      link: /efficiency/tools
+      text: 开始
+      link: /efficiency/online-tools
     - theme: alt
       text: gitee
       link: https://gitee.com/jywud314
