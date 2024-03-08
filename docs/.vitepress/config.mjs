@@ -62,7 +62,8 @@ export default defineConfig({
         text: '提效工具',
         items: [
           { text: '在线工具库', link: '/efficiency/online-tools' },
-          { text: 'any-format文档', link: '/efficiency/doc-anyformat' }
+          { text: 'any-format文档', link: '/efficiency/doc-anyformat' },
+          { text: 'easy-form-design', link: 'https://jywud314.gitee.io/easy-form-design' }
         ]
       },
       {
@@ -95,7 +96,8 @@ export default defineConfig({
           text: '提效工具',
           items: [
             { text: '在线工具库', link: '/efficiency/online-tools' },
-            { text: 'any-format文档', link: '/efficiency/doc-anyformat' }
+            { text: 'any-format文档', link: '/efficiency/doc-anyformat' },
+            { text: 'easy-form-design', link: 'https://jywud314.gitee.io/easy-form-design' }
           ]
         }
       ],
