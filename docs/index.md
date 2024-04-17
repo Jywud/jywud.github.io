@@ -29,12 +29,17 @@ features:
     details: 积极乐观的心态是成功的关键，心态决定一切。
 ---
 
-<p style="text-align:center;color:red;margin-top:100px">本站正在逐步完善，欢迎大家关注我的微信公众号，及时获取前端技术推文</p>
+<p :class="$style.tips">欢迎大家关注我的微信公众号，及时获取前端技术推文</p>
 <div :class="$style.wx_gzh_wrap">
   <img :class="$style.wx_gzh_img" src="/wx.png" />
 </div>
 
 <style module>
+.tips {
+  text-align: center;
+  color: red;
+  padding-top: 60px
+}
 .wx_gzh_wrap{
   text-align: center;
 }
